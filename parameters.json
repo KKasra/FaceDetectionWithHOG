@@ -1,0 +1,14 @@
+{
+    "train_size" : 10000,
+    "test_size" : 1000,
+    "validation_size" : 1000,
+
+    "sample_dims": [150, 150],
+    "number_of_orientations": 10,
+    "pixels_per_cell": [6, 6],
+    "cells_per_block": [2, 2],
+    "sliding_window_strides" : [10, 10,    5,   10, 10, 20],
+    "levels":                  [0.6, 0.65, 0.8, 1, 1.5, 1.875] ,
+
+    "decision_function_threshold": 0.95
+}
